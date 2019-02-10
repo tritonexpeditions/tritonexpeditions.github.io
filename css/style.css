@@ -8,6 +8,7 @@ body {
   margin: 0;
   width: device-width;
   font-family: "Cutive Mono", monospace;
+  font-size: 20px;
   color: white;
   position: relative;
   line-height: 1.5;
