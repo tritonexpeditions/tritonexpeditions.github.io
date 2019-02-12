@@ -31,21 +31,15 @@
   width: 100%;
 }
 
-.left-half {
-  font-family: "Cutive Mono", monospace;
-  color: black;
-  background-color: #f2f2f2;
-  position: absolute;
-  left: 0px;
-  width: 50%;
-}
 
 .right-half {
+  box-shadow: 0 4px 8px 2px rgba(255, 255, 255, 0.2), 0 6px 20px 10px rgba(255, 255, 255, 0.19);
   font-family: "Cutive Mono", monospace;
-  background-color: #020202;
+  background-color: #060606;
   position: absolute;
-  right: 0px;
+  right: 25%;
   width: 50%;
+  text-align: center;
 }
 
 
@@ -101,8 +95,11 @@
 
 /* Style the top navigation bar */
 .topnav {
+  box-shadow: 0 4px 8px 2px rgba(255, 255, 255, 0.2), 0 6px 20px 10px rgba(255, 255, 255, 0.19);
+  display: table;
+  margin: auto;
   overflow: hidden;
-  background-color: #060606;
+  background-color: #000000;
   text-align: center;
 }
 
@@ -110,7 +107,7 @@
 .topnav a {
   text-align: center;
   float: left;
-  display: block;
+  display: table;
   color: #f2f2f2;
   padding: 4px 6px;
   text-decoration: none;
@@ -1209,7 +1206,7 @@ body {
 
 
 
-
+/*
 #video-background {
   position: fixed;
   right: 0; 
@@ -1221,7 +1218,29 @@ body {
   z-index: -100;
 }
 
+*/
 
+
+
+video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+            transform: translateX(-50%) translateY(-50%);
+ background: none;
+  background-size: cover;
+  -webkit-transition: 1s opacity;
+  transition: 1s opacity;
+}
+.stopfade { 
+   opacity: .5;
+}
 
 
 
