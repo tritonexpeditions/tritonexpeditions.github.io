@@ -29,6 +29,7 @@
 .container {
   display: table;
   width: 100%;
+  text-align: center;
 }
 
 
@@ -1243,6 +1244,14 @@ video {
 }
 
 
-
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: none;
+   color: white;
+   text-align: center;
+}
 
 
