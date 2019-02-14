@@ -132,7 +132,7 @@ img {
 }
 
 body {
-
+  
   margin: 0;
   font-family: "Cutive Mono", monospace;
   font-size: 20px;
@@ -1223,7 +1223,7 @@ body {
 */
 
 
-
+/*
 video { 
     position: fixed;
     top: 50%;
@@ -1243,7 +1243,7 @@ video {
 .stopfade { 
    opacity: .5;
 }
-
+*/
 
 .footer {
    position: fixed;

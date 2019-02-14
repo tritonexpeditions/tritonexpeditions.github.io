@@ -11,15 +11,17 @@
 </head>
 
 <main>
-
-	<video id="bgvid" autoplay muted loop poster="img/005.jpg">
+<!--
+	<video id="bgvid" autoplay muted loop poster="img/0004.gif">
+	
 		<source src="video/waves.mp4" type="video/mp4">
 		<source src="video/waves.webm" type="video/webm">
 		<source src="video/waves.ogv" type="video/ogv">
 		I'm sorry; your browser doesn't support OGV with Vorbis, HTML5 video in WebM with VP8/VP9 or MP4 with H.264.
+	-->
 	</video>
 
-	<body>
+	<body style="background-image:url('img/007.jpg'); height: 50%; background-position: center; background-repeat: no-repeat; background-size: cover; background-attachment: fixed;">
 		<div class="header">
 			<div class="headnav">
 				<h1 class="mast__title js-spanize">The</h1>
@@ -158,7 +160,7 @@ img {vertical-align: middle;}
 </div>
 
 <div class="mySlides fade">
-  <img src="img/humanoid-2.jpg" style="width:100%">
+  <img src="img/humanoid-2.jpg" style="width:50%;">
 </div>
 
 <div class="mySlides fade">
@@ -170,11 +172,11 @@ img {vertical-align: middle;}
 </div>
 
 <div class="mySlides fade">
-  <img src="img/mirror.jpg" style="width:100%">
+  <img src="img/mirror.jpg" style="width:50%">
 </div>
 
 <div class="mySlides fade">
-  <img src="img/001.jpg" style="width:100%">
+  <img src="img/001.jpg" style="width:90%">
 </div>
 
 <div class="mySlides fade">
@@ -182,12 +184,14 @@ img {vertical-align: middle;}
 </div>
 
 <div class="mySlides fade">
-  <img src="img/humanoid-1.jpg" style="width:100%">
+  <img src="img/humanoid-1.jpg" style="width:80%">
 </div>
 
+
+<!--
 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
+-->
 </div>
 
 
@@ -207,7 +211,7 @@ function carousel() {
   myIndex++;
   if (myIndex > x.length) {myIndex = 1}    
   x[myIndex-1].style.display = "block";  
-  setTimeout(carousel, 3000); // Change image every 2 seconds
+  setTimeout(carousel, 4500); // Change image every 2 seconds
 }
 
 
