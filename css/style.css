@@ -65,6 +65,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
+  
 }
 
 
@@ -191,7 +192,7 @@ body {
   background-position: 50%;
 }*/
 .mast__header {
-  padding: 5%;
+  padding: 5%; 
   
 }
 .mast__title {
@@ -1250,7 +1251,7 @@ video {
    bottom: 0;
    width: 100%;
    background-color: none;
-   color: white;
+   color: #3D72A4;
    text-align: center;
 }
 
